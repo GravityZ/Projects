@@ -1,8 +1,8 @@
-# Training-skills 
-- `HTML 100%`
+# My projects
+- `2022`
 
 ------------
-- `CSS 70%` 
+- `PC` 
 
 ------------
-- `JS now learning`
+- `Dev`
