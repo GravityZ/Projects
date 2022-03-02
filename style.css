@@ -2,81 +2,70 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Poppins' ,sans-serif;
+    overflow-x: hidden;
 }
 
 body{
-    background-color: #000;
+    background:linear-gradient(45deg, #3d3d3d, #000);
+    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
 }
 
 .flex-container{
-    margin-top: 290px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    margin: 50px;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 .title{
-    padding: 30px 30px;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    text-shadow: 0 0 6px #ffffff;
+    font-size: 100px;
+    line-height: 1.2;
+    padding: 20px;
 }
 
+.p{
+    font-size: 15px;
+    padding: 20px;
+    line-height: 2;
+    font-size: 18.5px;
+}
 
 .btn{
     text-decoration: none;
     color: #ffffff;
-    background-color: #4169e1;
-    box-shadow: 0 0 10.5px 0 #4169e1;
-    margin: 10px 0px;
-    padding: 15px 34px;
-    border-radius: 20.5px;
+    background-color: #2abb56;
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 17.5px;
+    width: 300px;
+    text-align: center;
+    
 }
 
 .btn--trans{
     background-color: transparent;
-    border: 2px solid #4169e1;
-    color: #4169e1;
-    padding: 15px 30px;
-    transition: all .5s ease-in;
+    border: 2px solid #2abb56;
+    color: #36aa59;
+    transition: all .5s linear;
 }
 
 .btn--trans:hover{
-    background-color: #4169e1;
+    background-color: #36aa59;
     color: #ffffff;
 }
 
-.flex-social{
+.img-flex{
     display: flex;
-    flex-direction: row;
-    margin-top: 275px;
-
+    position: absolute;
+    left: 60rem;
+    top: 50px;
+    flex-wrap: wrap;
 }
 
-.flex-social img{
-    width: 40px;
-    margin: 20px;
-    
-}
-
-
-@media (max-width:450px){
-    .title{
-        font-size: 60px;
-    }
-
-    .flex-container{
-        margin-top: 100px;
-    }
-
-    .btn{
-        font-size: 20px;
-    }
-
-    .flex-social{
-        margin-top: 230px;
-    }
+.img-flex img{
+    width: 600px;
 }
