@@ -3,7 +3,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
-    background-color: black;
+}
+
+body{
+    background-color: #000;
 }
 
 .flex-container{
